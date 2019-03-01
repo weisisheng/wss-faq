@@ -1,4 +1,4 @@
-# Our Firm
+# Terms & Conditions
 
 ## Quo furori sed muris veteres
 

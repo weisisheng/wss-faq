@@ -1,4 +1,4 @@
-# Mihi gentes Arcadiae mecum sis
+# Payment Arrangements
 
 ## Quo furori sed muris veteres
 

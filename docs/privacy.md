@@ -1,4 +1,4 @@
-# Our Firm
+# Privacy Policy
 
 ## Quo furori sed muris veteres
 

@@ -1,4 +1,4 @@
-# Mihi gentes Arcadiae mecum sis
+# Academic Services
 
 ## Quo furori sed muris veteres
 
