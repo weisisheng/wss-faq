@@ -1,5 +1,7 @@
 # Academic Services
 
+![material.png](https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/images/material.png)
+
 ## Quo furori sed muris veteres
 
 Lorem markdownum linguae quia: falsus in exacta, caliturasque sternit tibi nec
