@@ -24,7 +24,8 @@ markdown_extensions:
     - toc:
         permalink: True
         separator: "_"
-nav:    
+nav:
+    - 'Home': 'index.md'    
     - 'Corporate Services': 'corporate-services.md'
     - 'Job Seeker Services': 'job-seeker-services.md'
     - 'Academic Applicants': 'academic-services.md'
