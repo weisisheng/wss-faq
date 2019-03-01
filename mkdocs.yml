@@ -1,8 +1,8 @@
-site_name: 'MkDocs Material Boilerplate'
-repo_name: 'GitHub'
-repo_url: 'https://github.com/peaceiris/mkdocs-material-boilerplate'
-site_description: 'MkDocs Material Boilerplate (Starter Kit) with docker and pipenv'
-site_author: 'peaceiris'
+site_name: 'Weisisheng FAQs -- Corporate, Career & Academic Clients'
+repo_name: 'wss-faq'
+repo_url: 'https://github.com/weisisheng/wss-faq'
+site_description: 'Weisisheng Client FAQ Built From MkDocs Material Boilerplate'
+site_author: 'Vince Fulco, CFA, CAIA'
 copyright: 'peaceiris'
 theme:
   name: 'material'
