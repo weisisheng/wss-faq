@@ -648,10 +648,9 @@
 
 <p><img alt="material.png" src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/images/material.png" /></p>
 <h2 id="getting_started">Getting started<a class="headerlink" href="#getting_started" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git clone https://github.com/peaceiris/mkdocs-material-boilerplate.git
-<span class="nb">cd</span> mkdocs-material-boilerplate
-</pre></div>
-
+<pre><code class="sh">git clone https://github.com/peaceiris/mkdocs-material-boilerplate.git
+cd mkdocs-material-boilerplate
+</code></pre>
 
 <h3 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">&para;</a></h3>
 <ul>
@@ -660,25 +659,23 @@
 <!-- https://dockeri.co/ -->
 
 <p><a href="https://hub.docker.com/r/peaceiris/mkdocs-material"><img alt="DockerHub Badge" src="https://dockeri.co/image/peaceiris/mkdocs-material" /></a></p>
-<div class="codehilite"><pre><span></span>docker pull peaceiris/mkdocs-material
-./task.sh -s  <span class="c1"># mkdocs serve</span>
-./task.sh -b  <span class="c1"># mkdocs build</span>
-./task.sh -d  <span class="c1"># mkdocs gh-deploy</span>
-./task.sh -V  <span class="c1"># mkdocs --version</span>
-./task.sh -h  <span class="c1"># mkdocs --help</span>
-</pre></div>
-
+<pre><code class="sh">docker pull peaceiris/mkdocs-material
+./task.sh -s  # mkdocs serve
+./task.sh -b  # mkdocs build
+./task.sh -d  # mkdocs gh-deploy
+./task.sh -V  # mkdocs --version
+./task.sh -h  # mkdocs --help
+</code></pre>
 
 <p>Serving on <a href="http://localhost:8000">localhost:8000</a></p>
 <h3 id="pipenv">pipenv<a class="headerlink" href="#pipenv" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>pipenv sync
+<pre><code>pipenv sync
 pipenv run version    # mkdocs --version
 pipenv run help       # mkdocs --help
 pipenv run serve      # mkdocs serve
 pipenv run build      # mkdocs build
 pipenv run gh-deploy  # mkdocs gh-deploy
-</pre></div>
-
+</code></pre>
 
 <h2 id="host_on_github_pages">Host on GitHub Pages<a class="headerlink" href="#host_on_github_pages" title="Permanent link">&para;</a></h2>
 <ul>
@@ -690,16 +687,14 @@ pipenv run gh-deploy  # mkdocs gh-deploy
 <li>Create a <a href="https://github.com/settings/tokens">Personal access token</a>. (Check only <code>repo</code>)</li>
 <li>Run the following scripts.</li>
 </ol>
-<div class="codehilite"><pre><span></span>./task.sh -d  # mkdocs gh-deploy
+<pre><code>./task.sh -d  # mkdocs gh-deploy
 # Enter github username
 # Enter the Personal access token
-</pre></div>
-
+</code></pre>
 
 <h4 id="deploy_with_pipenv">Deploy with <code>pipenv</code><a class="headerlink" href="#deploy_with_pipenv" title="Permanent link">&para;</a></h4>
-<div class="codehilite"><pre><span></span>pipenv run gh-deploy  # mkdocs gh-deploy
-</pre></div>
-
+<pre><code>pipenv run gh-deploy  # mkdocs gh-deploy
+</code></pre>
 
 <h3 id="build_and_deploy_with_circleci">Build and deploy with CircleCI<a class="headerlink" href="#build_and_deploy_with_circleci" title="Permanent link">&para;</a></h3>
 <ul>
